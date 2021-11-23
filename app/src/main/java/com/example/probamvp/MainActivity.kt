@@ -2,11 +2,10 @@ package com.example.probamvp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import com.example.probamvp.databinding.ActivityMainBinding
 
 class MainActivity: AppCompatActivity(), GreetingView {
-    private val presenter = Presenter() // Здесь ошибка в конструкторе
+    private val presenter = Presenter()
     // Binding
     lateinit var binding: ActivityMainBinding
 
